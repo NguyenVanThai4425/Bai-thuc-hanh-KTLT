@@ -6,4 +6,4 @@ def file_read(fname):
         myfile.write("Java Excercises")
     txt=open(fname)
     print(txt.read())
-file_read('C:/Users/DELL Inc/OneDrive - vinhuni.edu.vn/Tài liệu/vd.txt')
+file_read('vd.txt')
