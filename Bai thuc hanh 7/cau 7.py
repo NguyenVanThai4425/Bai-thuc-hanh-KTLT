@@ -4,5 +4,5 @@ def doc_file(fname):
         lines=file.readlines()
         print(lines)
         return len(lines)
-fname='.txt'
+fname='vd.txt'
 print("So dong trong tep la: ", doc_file(fname))
