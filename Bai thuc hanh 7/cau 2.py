@@ -1,5 +1,5 @@
 print("Nguyen Van Thai","\nMSSV: 235752021610005")
-k=open('C:/Users/DELL Inc/OneDrive - vinhuni.edu.vn/Tài liệu/vd.txt','r')
+k=open('vd.txt','r')
 char,wc,lc=0,0,0
 for line in k:
     for k in range (0,len(line)):
