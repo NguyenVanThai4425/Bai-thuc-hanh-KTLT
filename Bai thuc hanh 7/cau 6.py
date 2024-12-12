@@ -15,4 +15,4 @@ def file_read_from_tail(fname,lines):
                 if len(data)>=lines or f.tell()==0:
                     print(''.join(data[-lines:]))
                     break
-file_read_from_tail('C:/Users/DELL Inc/OneDrive - vinhuni.edu.vn/Tài liệu/vd.txt',2)
+file_read_from_tail('vd.txt',2)
