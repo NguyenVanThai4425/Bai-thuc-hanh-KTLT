@@ -4,4 +4,4 @@ def file_read_from_head(fname,nline):
     with open (fname) as f:
         for line in islice(f,nline):
             print(line)
-file_read_from_head('C:/Users/DELL Inc/OneDrive - vinhuni.edu.vn/Tài liệu/vd.txt',2)
+file_read_from_head('vd.txt',2)
